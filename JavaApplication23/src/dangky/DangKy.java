@@ -10,4 +10,31 @@ package dangky;
  */
 public class DangKy {
     private String batKy;
+    private String koBatKy;
+
+    public DangKy() {
+    }
+
+    public DangKy(String batKy, String koBatKy) {
+        this.batKy = batKy;
+        this.koBatKy = koBatKy;
+    }
+
+    public String getBatKy() {
+        return batKy;
+    }
+
+    public void setBatKy(String batKy) {
+        this.batKy = batKy;
+    }
+
+    public String getKoBatKy() {
+        return koBatKy;
+    }
+
+    public void setKoBatKy(String koBatKy) {
+        this.koBatKy = koBatKy;
+    }
+    
+    
 }
